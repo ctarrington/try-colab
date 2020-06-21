@@ -1,3 +1,8 @@
+import numpy as np
+
+from matplotlib import pyplot as plt
+from matplotlib.pyplot import plot, fill_between, vlines, hlines
+
 def plot_ci(rv, ci, variable):
   [left, right] = rv.ppf([leftEdge, rightEdge])
   leftCI = (1-ci)/2
