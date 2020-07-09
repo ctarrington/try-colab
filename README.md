@@ -1,7 +1,7 @@
 # try-colab
 Try colab as an alternative to a local jupyter instance. Evaluate on ease of use, performance, support for libraries, support for modularity, etc
 
-* Read external data X
+* Read external data 
 * import python code for modularity
 * performance compared to local nvidia GPU
 * libraries
